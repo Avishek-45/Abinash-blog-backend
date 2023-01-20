@@ -13,9 +13,6 @@ DATABASES = {
     }
 }
 
-STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / "staticfiles"  # for collect static
-
 MEDIA_ROOT = BASE_DIR / "media"
 MEDIA_URL = "/media/"
 
